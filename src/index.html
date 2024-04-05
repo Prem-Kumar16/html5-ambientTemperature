@@ -1,0 +1,45 @@
+<!--
+   Copyright 2019 Igalia, S.L.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
+        <div class="content">
+            <h1 class="header">
+                AMBIENT TEMPERATURE
+            </h1>
+            <h2>
+                <div id="SliderContainer" class="sliderContainer"></div>
+                <script id="slider-template" type="x-tmpl-mustache">
+                    <div class="entry" id="slider-{{ id }}" slider-id="{{ id }}" value="{{ value }}">
+                        <div class="label">
+                            {{ name }}: <span class="value"> {{ value }}°C</span>
+                        </div>
+                    </div>
+                </script>
+                </div>
+            </h2>
+        <div class="log" id="log">
+
+        </div>
+    </body>
+</html>
+
