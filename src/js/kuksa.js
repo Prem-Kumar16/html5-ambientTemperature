@@ -16,7 +16,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 
-const DEFAULT_TARGET = "http://localhost:8080";
+const DEFAULT_TARGET = "https://localhost:8888";
 
 // TODO: use an application token when needed
 // currently using https://github.com/eclipse/kuksa.val/blob/master/kuksa_certificates/jwt/super-admin.json.token
